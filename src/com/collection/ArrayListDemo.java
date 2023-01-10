@@ -9,7 +9,9 @@ public class ArrayListDemo {
 	al.add("AAA");
 	al.add("BBB");
 	al.add("CCC");
-	System.out.println(al);
-		
+	
+	for (Object object : al) {
+	 System.out.println(object);
+	}	
 	}
 }
