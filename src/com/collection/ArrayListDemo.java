@@ -5,12 +5,12 @@ import java.util.List;
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
-	List al= new ArrayList();
+	List<String> al= new ArrayList<String>();
 	al.add("AAA");
 	al.add("BBB");
 	al.add("CCC");
 	
-	for (Object object : al) {
+	for (String object : al) {
 	 System.out.println(object);
 	}	
 	}
