@@ -9,9 +9,7 @@ public class Demo2 {
 	al.add(10);
 	al.add(20);
 	al.add(30);
+		 System.out.println(al);
 	
-	for (int object : al) {
-	 System.out.println(object);
-	}	
 	}
 }
